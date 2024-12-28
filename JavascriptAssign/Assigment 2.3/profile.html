@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        
+    </div>
+
+    <script>
+       let containerEl = document.getElementById("container");
+       
+       let profileDetails={
+        imgSrc: "https://www.366icons.com/media/01/profile-avatar-account-icon-16699.png",
+        name: "RAHUL ATTULURI",
+        age: 25
+       }
+
+       let imgEl = document.createElement("img");
+       imgEl.classList.add("imageClass");
+       imgEl.src = profileDetails.imgSrc;
+       containerEl.appendChild(imgEl);
+
+       let HeadingEl = document.createElement("h1");
+       HeadingEl.innerText = profileDetails.name;
+       containerEl.appendChild(HeadingEl);
+
+       let Heading2El = document.createElement("h1");
+       Heading2El.innerText = profileDetails.age;
+       containerEl.appendChild(Heading2El)
+       
+    </script>
+
+</body>
+
+</html>

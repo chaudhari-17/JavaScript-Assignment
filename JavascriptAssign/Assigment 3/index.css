@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100vh;
+    width: 100%;
+  }
+  .main-cont{
+
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .img{
+    width: 450px;
+    height: 450px;
+ }
+ .child-cont{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+ }
+ .btn1{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+ }
+ .btn2{
+    width: 100px;
+    height: 30px;
+    background-color:gold;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+ }
+ .btn3{
+    width: 100px;
+    height: 30px;
+    background-color:red;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+ }
+ .btn4{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(10,176,242);
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+ }

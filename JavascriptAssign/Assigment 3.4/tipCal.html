@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tipCal.css">
+</head>
+<body>
+    <div class="main-cont">
+        <div class="main-cont-child">
+            <div class="main-cont-child-top"></div>
+            <div class="main-cont-child-bottom">
+                <h1 class="heading">Tip Calculator</h1>
+                <br>
+
+                BILL AMOUNT <br>
+                <input id="billAmount" class="inpnumber" type="number">
+                <br><br>
+
+                PERCENTAGE TIP <br>
+                <input id="percentageTip" class="inpnumber" type="number">
+                <br><br>
+
+                TIP AMOUNT <br>
+                <p id="tipAmount" class="inpnumber1"></p>
+                <br><br>
+
+                TOTAL <br>
+                <p id="total" class="inpnumber1"></p>
+
+                <div class="btndiv"><button id="buttonCalculate" class="btn">CALCULATE</button></div>
+
+                <p id="errorShow" class="result"></p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="tipCal.js"></script>
+</body>
+</html>

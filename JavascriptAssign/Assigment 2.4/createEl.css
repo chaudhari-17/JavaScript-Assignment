@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+#wordCloud{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.word{
+ margin: 5px;
+}
+#addWordContainer{
+    width: 100%;
+}
+input{
+    height: 30px;
+    width: 75%;
+    padding: 10px;
+}
+button{
+    padding: 0px 10px;
+    height: 30px;
+    width: 20%;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
